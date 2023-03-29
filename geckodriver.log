@@ -3628,3 +3628,141 @@ JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08
 JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 404
 1676613998242	Marionette	INFO	Stopped listening on port 49307
 Dynamically enable window occlusion 1
+1677334391184	geckodriver	INFO	Listening on 127.0.0.1:57991
+1677334394242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "579 ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jason\\AppData\\Local\\Temp\\rust_mozprofile2eMDfq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677334394486	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677334394489	Marionette	INFO	Listening on port 58002
+WebDriver BiDi listening on ws://127.0.0.1:57992
+Read port: 58002
+1677334394683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jason\\AppData\\Local\\Temp\\rust_mozprofile2eMDfq\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57992/devtools/browser/94d22f2c-e259-4bc6-b1ce-dc40a76cf743
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/f3a50cc181a5ca153ab3cdafae01002ff0052130/meso-displayad.js, line 223: TypeError: window.googletag.pubads is not a function
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/f3a50cc181a5ca153ab3cdafae01002ff0052130/meso-displayad.js, line 223: TypeError: window.googletag.pubads is not a function
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/f3a50cc181a5ca153ab3cdafae01002ff0052130/meso-displayad.js, line 223: TypeError: window.googletag.pubads is not a function
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6N6xbrRFdMEff8Jis_shwjAW5G8di4zE4BhK3Aw40Jc.js line 2 > eval line 1604 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6N6xbrRFdMEff8Jis_shwjAW5G8di4zE4BhK3Aw40Jc.js line 2 > eval line 3374 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6N6xbrRFdMEff8Jis_shwjAW5G8di4zE4BhK3Aw40Jc.js line 2 > eval line 5017 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/chaseusdcm562975626226/moatad.js#moatClientLevel1=29207049&moatClientLevel2=4403372&moatClientLevel3=358080817&moatClientLevel4=185536921&zMoatG=ct=US&st=MT&city=41253&dma=174&zp=59701&bw=4&zMoatUSER=AMsySZbhV42fYRG814GM1JeIC7VJ&zMoatADV=8451100&zMoatENV=j, line 242: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677334403206	Marionette	INFO	Stopped listening on port 58002
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677631994507	geckodriver	INFO	Listening on 127.0.0.1:56776
+1677631997579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56777" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jason\\AppData\\Local\\Temp\\rust_mozprofileRnbLLF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677631997829	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677631997832	Marionette	INFO	Listening on port 56787
+WebDriver BiDi listening on ws://127.0.0.1:56777
+Read port: 56787
+1677631998036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jason\\AppData\\Local\\Temp\\rust_mozprofileRnbLLF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56777/devtools/browser/073c0cbc-7c9d-4766-99e0-3ece4a46120a
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/f3a50cc181a5ca153ab3cdafae01002ff0052130/meso-displayad.js, line 223: TypeError: window.googletag is undefined
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/f3a50cc181a5ca153ab3cdafae01002ff0052130/meso-displayad.js, line 223: TypeError: window.googletag is undefined
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/f3a50cc181a5ca153ab3cdafae01002ff0052130/meso-displayad.js, line 223: TypeError: window.googletag is undefined
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6N6xbrRFdMEff8Jis_shwjAW5G8di4zE4BhK3Aw40Jc.js line 2 > eval line 6529 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677632007883	Marionette	INFO	Stopped listening on port 56787
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677915742914	geckodriver	INFO	Listening on 127.0.0.1:57566
+1677915745991	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "575 ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jason\\AppData\\Local\\Temp\\rust_mozprofileguXouT"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677915746247	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677915746251	Marionette	INFO	Listening on port 57579
+WebDriver BiDi listening on ws://127.0.0.1:57567
+Read port: 57579
+1677915746446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jason\\AppData\\Local\\Temp\\rust_mozprofileguXouT\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57567/devtools/browser/d61d9cbc-2404-431c-b600-5f92725f0497
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/b50eedf3668160a5e8c0f878e329438abf3d56bb/meso-displayad.js, line 223: TypeError: window.googletag.pubads is not a function
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/b50eedf3668160a5e8c0f878e329438abf3d56bb/meso-displayad.js, line 223: TypeError: window.googletag.pubads is not a function
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/b50eedf3668160a5e8c0f878e329438abf3d56bb/meso-displayad.js, line 223: TypeError: window.googletag.pubads is not a function
+1677915754712	Marionette	INFO	Stopped listening on port 57579
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 2846 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677995099126	geckodriver	INFO	Listening on 127.0.0.1:58245
+1677995102185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "582 ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jason\\AppData\\Local\\Temp\\rust_mozprofile5xiQea"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677995102426	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677995102429	Marionette	INFO	Listening on port 58256
+WebDriver BiDi listening on ws://127.0.0.1:58246
+Read port: 58256
+1677995102686	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jason\\AppData\\Local\\Temp\\rust_mozprofile5xiQea\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58246/devtools/browser/29eeb53e-0539-4d28-b91d-23d8a1331723
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://c.travel-assets.com/flights-shopping-pwa/pap.5bc6a3e08e679555c3dd.js, line 2: Error: UIS (/api/uisprime/track)replied with HTTP status code: 429
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/b50eedf3668160a5e8c0f878e329438abf3d56bb/meso-displayad.js, line 223: TypeError: window.googletag.pubads is not a function
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/b50eedf3668160a5e8c0f878e329438abf3d56bb/meso-displayad.js, line 223: TypeError: window.googletag.pubads is not a function
+JavaScript error: https://www.uciservice.com/assets/md-libs/1.0/b50eedf3668160a5e8c0f878e329438abf3d56bb/meso-displayad.js, line 223: TypeError: window.googletag.pubads is not a function
+1677995112256	Marionette	INFO	Stopped listening on port 58256
+Dynamically enable window occlusion 1
