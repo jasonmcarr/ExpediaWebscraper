@@ -1,1 +1,1 @@
-io.write_json(fig, 'avgpricebyairlinebyday.json')
+  margin={'l': 0, 'r': 0, 't': 0, 'b': 0},

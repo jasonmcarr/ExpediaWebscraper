@@ -31,8 +31,9 @@ fig = go.Figure(data=[go.Table(
 ])
 # set the title
 fig.update_layout(title='', font=dict(
-    color='white', family='Montserrat Regular'), plot_bgcolor='rgba(0,0,0,0)', 
-    paper_bgcolor='rgba(0,0,0,0)')
+    color='white', family='Montserrat Regular'), plot_bgcolor='rgba(0,0,0,0)',
+    paper_bgcolor='rgba(0,0,0,0)', autosize=False, width=410, height=91, margin={'l': 1, 'r': 1, 't': 1, 'b': 1},
+                  )
 # show the plot
 # fig.show()
 pio.write_image(fig, 'avgpricebyairline.png')
@@ -55,7 +56,7 @@ for airline in df_grouped['Airline'].unique():
                              line=dict(color=colors[airline]),
                              marker=dict(color=colors[airline], size=5)))
 # set the title and axis labels
-fig.update_layout(title='',
+fig.update_layout(title='', margin={'l': 1, 'r': 1, 't': 1, 'b': 1},
                   xaxis_title='Date', yaxis_title='Average Price (USD)',
                   legend=dict(orientation="h", yanchor="bottom", y=1.02,
                               xanchor="right", x=1, bgcolor='rgba(0,0,0,0)'),
@@ -75,33 +76,58 @@ pio.write_image(fig, 'avgpricebyairlinebyday.png')
 # Flight Prices by Departure Time and Airline
 # convert the 'Time' column to datetime format
 df['Time'] = pd.to_datetime(df['Time'], format='%I:%M%p')
+
 # create a dictionary to map airlines to numerical values
 airline_dict = {'Alaska': ' #A304A2', 'Delta': '#faa53e', 'United': '#2d3290'}
 # map the 'Airline' column to the corresponding color using the dictionary
 df['Color'] = df['Airline'].map(airline_dict)
 # create a Plotly scatter plot with the price and departure time of each flight
-fig = go.Figure(data=go.Scatter(
-    x=df['Time'],
-    y=df['Price'],
-    mode='markers',
-    marker=dict(
-        size=8,
-        color=df['Color'],
-    ),
-    # add airline and time info to the hover text
-    text=df['Airline'] + ', ' + df['Time'].dt.strftime('%I:%M%p')
-))
+fig = go.Figure()
+for airline, color in airline_dict.items():
+    airline_df = df[df['Airline'] == airline]
+    fig.add_trace(
+        go.Scatter(
+            x=airline_df['Time'],
+            y=airline_df['Price'],
+            mode='markers',
+            marker=dict(
+                size=8,
+                color=color,
+            ),
+            name=airline,  # add name for legend
+            # add airline and time info to the hover text
+            text=airline_df['Airline'] + ', ' + \
+            airline_df['Time'].dt.strftime('%I:%M%p')
+        )
+    )
 # set the axis labels and title
 fig.update_layout(
+    margin={'l': 1, 'r': 1, 't': 1, 'b': 1},
     xaxis_title='Departure Time',
     yaxis_title='Price (USD)',
     title='',
     plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)',
     font=dict(color='white', family='Montserrat Regular'),
-    xaxis=dict(showgrid=False, ticks='inside',
-               tickwidth=1, ticklen=5, tickcolor='white', linecolor='white'),
+    xaxis=dict(
+        tickformat='%-I:%M%p',
+        showgrid=False,
+        ticks='inside',
+        tickwidth=1,
+        ticklen=5,
+        tickcolor='white',
+        linecolor='white'
+    ),
     yaxis=dict(showgrid=False, ticks='inside',
-               tickwidth=1, ticklen=5, tickcolor='white', linecolor='white'))
+               tickwidth=1, ticklen=5, tickcolor='white', linecolor='white'),
+    # add legend
+    legend=dict(
+        orientation='h',
+        yanchor='bottom',
+        y=1.02,
+        xanchor='right',
+        x=1
+    )
+)
 # show the plot
 # fig.show()
 pio.write_image(fig, 'avgpricebyairlinebytime.png')
