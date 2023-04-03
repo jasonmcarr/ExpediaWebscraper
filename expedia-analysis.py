@@ -36,8 +36,8 @@ fig.update_layout(title='', font=dict(
                   )
 # show the plot
 # fig.show()
-pio.write_image(fig, 'avgpricebyairline.png')
-pio.write_json(fig, 'avgpricebyairline.json')
+# pio.write_image(fig, 'avgpricebyairline.png')
+# pio.write_json(fig, 'avgpricebyairline.json')
 
 #####################################################################################################################################
 
@@ -54,7 +54,9 @@ for airline in df_grouped['Airline'].unique():
     fig.add_trace(go.Scatter(x=airline_df['Date'], y=airline_df['Price'],
                              mode='lines+markers', name=airline,
                              line=dict(color=colors[airline]),
-                             marker=dict(color=colors[airline], size=5)))
+                             marker=dict(color=colors[airline], size=5),
+                             hovertemplate='Airline: %{text}<br>Date: %{x}<br>Average Price: $%{y:.2f}',
+                             text=[airline] * len(airline_df['Date'])))
 # set the title and axis labels
 fig.update_layout(title='', margin={'l': 1, 'r': 1, 't': 1, 'b': 1},
                   xaxis_title='Date', yaxis_title='Average Price (USD)',
@@ -67,8 +69,8 @@ fig.update_layout(title='', margin={'l': 1, 'r': 1, 't': 1, 'b': 1},
                   yaxis=dict(showgrid=False, ticks='inside', tickwidth=1, ticklen=5, tickcolor='white', linecolor='white'))
 # show the plot
 # fig.show()
-pio.write_json(fig, 'avgpricebyairlinebyday.json')
-pio.write_image(fig, 'avgpricebyairlinebyday.png')
+# pio.write_json(fig, 'avgpricebyairlinebyday.json')
+# pio.write_image(fig, 'avgpricebyairlinebyday.png')
 
 
 ######################################################################################################################################
@@ -76,7 +78,6 @@ pio.write_image(fig, 'avgpricebyairlinebyday.png')
 # Flight Prices by Departure Time and Airline
 # convert the 'Time' column to datetime format
 df['Time'] = pd.to_datetime(df['Time'], format='%I:%M%p')
-
 # create a dictionary to map airlines to numerical values
 airline_dict = {'Alaska': ' #A304A2', 'Delta': '#faa53e', 'United': '#2d3290'}
 # map the 'Airline' column to the corresponding color using the dictionary
@@ -95,9 +96,10 @@ for airline, color in airline_dict.items():
                 color=color,
             ),
             name=airline,  # add name for legend
-            # add airline and time info to the hover text
-            text=airline_df['Airline'] + ', ' + \
-            airline_df['Time'].dt.strftime('%I:%M%p')
+            # add airline, date and price info to the hover text
+            hovertemplate='Airline: %{text}<br>Date: %{x}<br>Average Price: $%{y:.2f}',
+            text=[airline] * len(airline_df['Date'])
+
         )
     )
 # set the axis labels and title
@@ -130,5 +132,5 @@ fig.update_layout(
 )
 # show the plot
 # fig.show()
-pio.write_image(fig, 'avgpricebyairlinebytime.png')
-pio.write_json(fig, 'avgpricebyairlinebytime.json')
+# pio.write_image(fig, 'avgpricebyairlinebytime.png')
+# pio.write_json(fig, 'avgpricebyairlinebytime.json')
