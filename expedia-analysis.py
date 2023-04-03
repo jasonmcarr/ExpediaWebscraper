@@ -55,7 +55,7 @@ for airline in df_grouped['Airline'].unique():
                              mode='lines+markers', name=airline,
                              line=dict(color=colors[airline]),
                              marker=dict(color=colors[airline], size=5),
-                             hovertemplate='Airline: %{text}<br>Date: %{x}<br>Average Price: $%{y:.2f}',
+                             hovertemplate='Date: %{x}<br>Average Price: $%{y:.2f}',
                              text=[airline] * len(airline_df['Date'])))
 # set the title and axis labels
 fig.update_layout(title='', margin={'l': 1, 'r': 1, 't': 1, 'b': 1},
@@ -69,8 +69,8 @@ fig.update_layout(title='', margin={'l': 1, 'r': 1, 't': 1, 'b': 1},
                   yaxis=dict(showgrid=False, ticks='inside', tickwidth=1, ticklen=5, tickcolor='white', linecolor='white'))
 # show the plot
 # fig.show()
-# pio.write_json(fig, 'avgpricebyairlinebyday.json')
-# pio.write_image(fig, 'avgpricebyairlinebyday.png')
+pio.write_json(fig, 'avgpricebyairlinebyday.json')
+pio.write_image(fig, 'avgpricebyairlinebyday.png')
 
 
 ######################################################################################################################################
@@ -97,7 +97,7 @@ for airline, color in airline_dict.items():
             ),
             name=airline,  # add name for legend
             # add airline, date and price info to the hover text
-            hovertemplate='Airline: %{text}<br>Date: %{x}<br>Average Price: $%{y:.2f}',
+            hovertemplate='Date: %{x}<br>Average Price: $%{y:.2f}',
             text=[airline] * len(airline_df['Date'])
 
         )
@@ -132,5 +132,5 @@ fig.update_layout(
 )
 # show the plot
 # fig.show()
-# pio.write_image(fig, 'avgpricebyairlinebytime.png')
-# pio.write_json(fig, 'avgpricebyairlinebytime.json')
+pio.write_image(fig, 'avgpricebyairlinebytime.png')
+pio.write_json(fig, 'avgpricebyairlinebytime.json')
